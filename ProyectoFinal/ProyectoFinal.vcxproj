@@ -157,9 +157,6 @@
     <None Include="Shaders\SkyBox.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="314008040_ProyectoFinal_Gpo4.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="meshAnim.h" />
@@ -168,6 +165,9 @@
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProyectoFinal.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
